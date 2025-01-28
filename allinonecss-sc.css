@@ -1,0 +1,452 @@
+/*=== SC Special ===*/
+.entry blockquote, .entry pre {
+background:#DDF2FC url(http://3.bp.blogspot.com/-V-zJZ8FFty8/UE4NEmMALLI/AAAAAAAAImc/oMCLhf_xsp0/s1600/blockquot.jpg) repeat-y top left;
+width:auto;
+overflow-x:hidden; overflow-y:auto;
+-ms-overflow-x:hidden; -ms-overflow-y:auto;
+font-family: Arial, Helvetica, Sans-Serif;
+margin:5px 5px 7px 5px;
+padding: 7px 7px 7px 23px;
+border:1px solid #CCC;
+border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; -webkit-border-radius:5px;
+box-shadow: 1px 1px 2px #adadad; -webkit-box-shadow: 1px 1px 2px #adadad; 
+}
+
+#code1 {text-align:left;}
+#code2 {text-align:left; height:160px;}
+#note1 {background-color:#FBFBEE;}
+#note2 {text-align:left; background-color:#FBFBEE;}
+#note3 {text-align:left; background-color:#FDEAE8;}
+.subjdl {font-size: 13px; margin: 20px 0 5px 0;}
+.subsub {padding-bottom: 3px;}
+.notes {color: #333399; padding-bottom: 3px;}
+.subjdl, .subsub, .notes {font-weight: bold; text-shadow: 2px 2px 2px #adadad;}
+
+.nyumput-title {
+color:#F2170B;
+font-size:15px;
+font-weight:bold;
+letter-spacing:-0.8px;
+text-transform:title;
+text-align:center;
+text-shadow:2px 2px 2px #adadad;
+}
+.readmore {
+float:right; 
+margin-top:5px; 
+font-style:italic;
+text-shadow:2px 2px 2px #adadad;
+}
+.readmore:hover {
+transform:scale(1.02) translate(-2px, 0px);
+-ms-transform:scale(1.02) translate(-2px, 0px);
+-o-transform:scale(1.02) translate(-2px, 0px);
+-moz-transform:scale(1.02) translate(-2px, 0px);
+-webkit-transform:scale(1.02) translate(-2px, 0px);
+}
+.tandatangan {
+text-align:right;
+margin:5px 10px 0 0;
+}
+.nuhun {
+background:url(http://3.bp.blogspot.com/-WOGCtyIpoV4/UHKniiNNkqI/AAAAAAAAI5w/R6DtlxNXZFU/s1600/meta-sprite.png) center left no-repeat;
+background-position: 0px -64px;
+text-shadow:2px 2px 2px #adadad;
+margin-top:5px;
+padding-left: 23px;
+line-height: 18px;
+}
+
+
+/*=== Transition dan Hover ===*/
+.post-title, .post img, .readmore, .custom_images a img, .sociable img, .avatar-image-container img, .comm-num a:link {
+transition: 0.5s;
+-ms-transition: 0.5s;
+-o-transition: 0.5s;
+-moz-transition: 0.5s;
+-webkit-transition: 0.5s;
+}
+
+.custom_images img:hover, .sociable img:hover {
+opacity: 1;
+-o-opacity: 1;
+-moz-opacity: 1;
+-webkit-opacity: 1;
+filter: alpha(opacity=100); 
+}
+
+#sorolok h4:hover, .sharethis_toolbox .custom_images a img {
+opacity: 0.75;
+-o-opacity: 0.75;
+-moz-opacity: 0.75;
+-webkit-opacity: 0.75;
+filter: alpha(opacity=75);
+}
+
+.sharethis_toolbox .custom_images img:hover, .sociable img:hover, .comm-num a:hover, .avatar-image-container img:hover {
+transform:scale(1.2) rotate(360deg);
+-ms-transform:scale(1.2) rotate(360deg);
+-o-transform:scale(1.2) rotate(360deg);
+-moz-transform:scale(1.2) rotate(360deg);
+-webkit-transform:scale(1.2) rotate(360deg);
+}
+
+.stickysocial a, .stickysocial img, .luhur-handap img {
+opacity: .75; -o-opacity: .75; -moz-opacity: .75; -webkit-opacity: .75; filter: alpha(opacity=75);
+transition:0.5s; 
+-ms-transition:0.5s; 
+-o-transition:0.5s; 
+-moz-transition:0.5s; 
+-webkit-transition:0.5s;
+}
+.stickysocial a:hover, .stickysocial img:hover, .luhur-handap img:hover{
+opacity: 1; -o-opacity: 1; -moz-opacity: 1; -webkit-opacity: 1; filter: alpha(opacity=100);
+transform:scale(1.2);
+-ms-transform:scale(1.2);
+-o-transform:scale(1.2);
+-moz-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+}
+
+/*=== Image Sharethis ===*/
+
+img.share1 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) 0 0; width:32px;
+}
+img.share2 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -32px 0; width:32px;
+}
+img.share3 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -64px 0; width:32px;
+}
+img.share4 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -96px 0; width:32px;
+}
+img.share5 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -128px 0; width:32px;
+}
+img.share6 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -160px 0; width:32px;
+}
+
+/*=== Social Bookmark ===*/
+div.sociable { margin: 16px 0 0 0; text-align: center; }
+span.sociable_tagline { position: relative; }
+span.sociable_tagline span { display: none; width: 14em; }
+span.sociable_tagline:hover span {
+position: absolute;
+display: block;
+top: -5em;
+background: #ffe;
+border: 1px solid #ccc;
+color: black;
+line-height: 1.25em;
+}
+.sociable span {
+display: block;
+}
+.sociable ul {
+display: inline;
+margin: 0 !important;
+padding: 0 !important;
+}
+.sociable li {
+background: none;
+display: inline;
+list-style-type: none;
+margin: 0;
+padding: 1px;
+}
+.sociable ul li:before {content: "";}
+.sociable img {
+float: none;
+width: 16px;
+height: 16px;
+border: 0;
+margin: 0px 4px 5px 4px; /*jarak antargambar*/
+padding: 0;
+opacity: 0.4;
+-o-opacity: 0.4;
+-moz-opacity: 0.4;
+-webkit-opacity: 0.4;
+filter: alpha(opacity=40);
+}
+.sociable img:hover{}
+
+img.sbm1 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) 0 -32px; width:16px;
+}
+img.sbm2 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -16px -32px; width:16px;
+}
+img.sbm3 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -32px -32px; width:16px;
+}
+img.sbm4 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -48px -32px; width:16px;
+}
+img.sbm5 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -64px -32px; width:16px;
+}
+img.sbm6 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -80px -32px; width:16px;
+}
+img.sbm7 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -96px -32px; width:16px;
+}
+img.sbm8 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -112px -32px; width:16px;
+}
+img.sbm9 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -128px -32px; width:16px;
+}
+img.sbm10 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -144px -32px; width:16px;
+}
+img.sbm11 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -160px -32px; width:16px;
+}
+img.sbm12 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -176px -32px; width:16px;
+}
+img.sbm13 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -192px -32px; width:16px;
+}
+img.sbm14 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -208px -32px; width:16px;
+}
+
+/*=== Toogle jQuery ===*/
+#sorolok {}
+#sorolok h4 {
+font-size: 16px;
+letter-spacing:-0,8px;
+cursor:pointer;
+display:block;
+outline:0 none;
+}
+#sorolok h4:hover {}
+#sorolok h4.active {
+color:#045EC4;
+}
+.eusi-sorolok {}
+
+/*=== Toggle Spoiler ===*/
+.widgethidden {display:none}
+.widgetshown {display:inline}
+
+/*=== Related Posts ===*/ 
+#jerodatablog {
+background:url(http://3.bp.blogspot.com/-6YOns2Rfi08/UCl-nhiF_OI/AAAAAAAAF8s/hmG-vjRdrhw/s1600/bgtabview.gif);
+border-left:1px solid #C0C0C0; 
+border-right:1px solid #C0C0C0; 
+border-bottom:1px solid #C0C0C0; 
+padding:10px; 
+width:95%; 
+height:230px; 
+overflow:auto; 
+}
+
+/*=== Menu Tabcontent ===*/
+#bottomfeature {
+clear:both;
+width:420px;
+padding-top:5px;
+margin-bottom: 10px;
+border: 1px solid #C0C0C0;
+}
+#autoselecttab {
+clear:both;
+width:400px;
+height:25px;
+padding:0 0 0 10px;
+border-bottom: 1px solid #C0C0C0;
+}
+#fourtab {
+position:relative;
+height:25px;
+font-size:12px;
+font-weight:normal;
+background:transparent;
+font-family: Arial,Helvitica,sans-serif;
+}
+#fourtab ul {
+margin:0;
+padding:0;
+list-style-type:none;
+width:auto;
+}
+#fourtab ul li {
+display:block;
+float:left;
+margin:0;
+}
+#fourtab ul li a {
+color:#000;
+display:block;
+width:94px;
+float:left;
+text-align:center;
+background-color:#A4A4A4;
+text-shadow:1px 1px 1px #fff;
+height:20px;
+padding:5px 0px 0px 0px;
+margin-right:4px;
+vertical-align: middle;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+-moz-border-radius-topleft:7px;
+-moz-border-radius-topright:7px;
+-khtml-border-radius-topleft:7px;
+-khtml-border-radius-topright:7px;
+-webkit-border-top-left-radius:7px;
+-webkit-border-top-right-radius:7px;
+border-right: 2px solid #adadad;
+}
+#fourtab ul li a.tabactive{
+color:#FFFFCC;
+background-color:#888888;
+text-shadow:2px 2px 2px #000;
+}
+#fourtab ul li a:hover{
+color:#000;
+background-color:#A4A4A4;
+text-shadow:1px 1px 1px #fff;
+}
+
+/*=== Content Tabcontents ===*/
+#tabcontent1, #tabcontent2, #tabcontent3, #tabcontent4 {
+background:url("");
+width:auto;
+height:245px;
+margin:0;
+padding:0 0 0 5px;
+font-size:10px;
+letter-spacing:0px;
+overflow: auto;
+}
+.tabcontent h2 {
+margin:13px 0px 2px 0px;
+padding:0px;
+font-family: Arial,Helvitica,sans-serif;
+font-size:12px;
+letter-spacing:0px;
+font-weight:bold;
+color:#045EC4;
+text-align:left;
+text-shadow:2px 2px 2px #adadad;
+}
+
+/*=== Menu TabView ===*/
+div.TabView div.Tabs {
+padding-top:0px;
+height:24px;
+overflow:hidden;
+}
+
+/* Menu Utama */
+div.TabView div.Tabs a {
+float:left;
+display:block;
+width:92px;  
+text-align:center;
+height:24px; 
+padding-top:4px;
+margin-right:4px;
+vertical-align:middle;
+border-bottom-width:0;
+font-family:Arial,Helvitica,sans-serif;
+font-size:12px; 
+letter-spacing:0px;
+background-color:#A4A4A4; 
+color:#000;
+text-shadow:1px 1px 1px #fff;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+-moz-border-radius-topleft:7px;
+-moz-border-radius-topright:7px;
+-o-border-radius-topleft:7px;
+-o-border-radius-topright:7px;
+-webkit-border-top-left-radius:7px;
+-webkit-border-top-right-radius:7px;
+border-right: 2px solid #adadad;
+}
+div.TabView div.Tabs a.Active {
+background-color:#888888;
+color:#FFFFCC;
+font-weight:normal;
+text-shadow:2px 2px 2px #000;
+}
+div.TabView div.Tabs a:hover {
+background-color:#A4A4A4;
+color:#000;
+font-weight:bold;
+text-shadow:1px 1px 1px #fff;
+}
+
+/* Kotak Utama */
+div.TabView div.Pages {
+clear:both;
+border:1px solid #CCC;
+overflow:hidden;
+background:url(http://3.bp.blogspot.com/-6YOns2Rfi08/UCl-nhiF_OI/AAAAAAAAF8s/hmG-vjRdrhw/s1600/bgtabview.gif);
+}
+div.TabView div.Pages div.Page {
+height:100%;
+padding:0px;
+overflow:hidden;
+}
+div.TabView div.Pages div.Page div.Pad {
+padding:3px 5px;
+font-size:12px; 
+}
+
+/*=== Stickysocial ===*/
+.stickysocial {
+background: transparent;
+position: fixed;
+top: 27%;
+left: 0.35%;
+z-index: 100;
+vertical-align: bottom;
+width: 37px;
+text-align: center;
+}
+.stickysocial a {}
+
+img.sticky1 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) 0 -48px; width:37px;
+}
+img.sticky2 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -37px -48px; width:37px;
+}
+img.sticky3 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -74px -48px; width:37px;
+}
+img.sticky4 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -111px -48px; width:37px;
+}
+img.sticky5 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -148px -48px; width:37px;
+}
+img.sticky6 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -185px -48px; width:37px;
+}
+img.sticky7 {
+background:url(http://3.bp.blogspot.com/-Ri23FqFOf0M/UE4xRgZjQRI/AAAAAAAAImw/Wmm9iRjc-gs/s1600/icon-sprite.png) -222px -48px; width:37px;
+}
+
+
+/*=== Floating Image ===*/
+#globe-muter { position:fixed; _position:absolute; top:7px; left:15px; clip:inherit; z-index:+1000;}
+
+.luhur-handap {
+position:fixed;_position:absolute; bottom:3px; right:5px; clip:inherit; z-index:+1000; vertical-align:bottom; width:30px;
+}
+
+img.luhur {
+background:url(http://3.bp.blogspot.com/-egkfp0lNt_g/UFFT17gnXHI/AAAAAAAAIqI/RFGI_EZdyxI/s1600/sprite-dsc.png) 0px -262px; width:32px; height:32px;
+}
+img.handap {
+background:url(http://3.bp.blogspot.com/-egkfp0lNt_g/UFFT17gnXHI/AAAAAAAAIqI/RFGI_EZdyxI/s1600/sprite-dsc.png) -32px -262px; width:32px; height:32px;
+}
