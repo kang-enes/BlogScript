@@ -1,6 +1,6 @@
-/*=== SC Special (blockquot) ===*/
+/*=== SC Special ===*/
 .entry blockquote, .entry pre {
-background:#DDF2FC url(https://images2.imgbox.com/44/38/V8YiWEt6_o.jpg) repeat-y top left;
+background:#DDF2FC url(https://images2.imgbox.com/44/38/V8YiWEt6_o.jpg) repeat-y top left; /* blockquot.jpg */
 width:auto;
 overflow-x:hidden; overflow-y:auto;
 -ms-overflow-x:hidden; -ms-overflow-y:auto;
@@ -49,7 +49,7 @@ text-align:right;
 margin:5px 10px 0 0;
 }
 .nuhun {
-background:url(https://images2.imgbox.com/50/e0/tU4YVq3p_o.png) center left no-repeat; /* meta-sprite */
+background:url(https://images2.imgbox.com/50/e0/tU4YVq3p_o.png) center left no-repeat; /* meta-sprite.png */
 background-position: 0px -64px;
 text-shadow:2px 2px 2px #adadad;
 margin-top:5px;
@@ -116,7 +116,7 @@ transform:scale(1.2) rotate(360deg);
 -webkit-transform:scale(1.2) rotate(360deg);
 }
 
-/*=== Image Sharethis (icon-sprite) ===*/
+/*=== Image Sharethis (icon-sprite.png) ===*/
 
 img.share1 {
 background:url(https://images2.imgbox.com/f8/5e/yXXJnKuQ_o.png) 0 0; width:32px;
@@ -239,11 +239,11 @@ color:#045EC4;
 }
 .eusi-sorolok {}
 
-/*=== Toggle Spoiler (bgtabview.gif)===*/
+/*=== Toggle Spoiler ===*/
 .widgethidden {display:none}
 .widgetshown {display:inline}
 
-/*=== Related Posts ===*/ 
+/*=== Related Posts (bgtabview.gif) ===*/ 
 #jerodatablog {
 background:url(https://images2.imgbox.com/d5/48/R7KboX1P_o.gif);
 border-left:1px solid #C0C0C0; 
@@ -392,7 +392,7 @@ font-weight:bold;
 text-shadow:1px 1px 1px #fff;
 }
 
-/* Kotak Utama */
+/* Kotak Utama (bgtabview.gif) */
 div.TabView div.Pages {
 clear:both;
 border:1px solid #CCC;
@@ -409,7 +409,7 @@ padding:3px 5px;
 font-size:12px; 
 }
 
-/*=== Stickysocial ===*/
+/*=== Stickysocial (icon-sprite.png) ===*/
 .stickysocial {
 background: transparent;
 position: fixed;
@@ -445,7 +445,7 @@ background:url(https://images2.imgbox.com/f8/5e/yXXJnKuQ_o.png) -222px -48px; wi
 }
 
 
-/*=== Floating Image (sprite-dsc) ===*/
+/*=== Floating Image (sprite-sc) ===*/
 #globe-muter { position:fixed; _position:absolute; top:7px; left:15px; clip:inherit; z-index:+1000;}
 
 .luhur-handap {
@@ -453,8 +453,8 @@ position:fixed;_position:absolute; bottom:3px; right:5px; clip:inherit; z-index:
 }
 
 img.luhur {
-background:url(https://images2.imgbox.com/65/d3/jyQTvMzH_o.png) 0px -262px; width:32px; height:32px;
+background:url(https://images2.imgbox.com/d3/df/mSD4vU3t_o.png) 0px -262px; width:32px; height:32px;
 }
 img.handap {
-background:url(https://images2.imgbox.com/65/d3/jyQTvMzH_o.png) -32px -262px; width:32px; height:32px;
+background:url(https://images2.imgbox.com/d3/df/mSD4vU3t_o.png) -32px -262px; width:32px; height:32px;
 }
