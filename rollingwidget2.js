@@ -1,3 +1,8 @@
+// ----------------------------------------
+// HIDEN ROLLING WIDGET
+// ----------------------------------------
+//
+
 var gb = document.getElementById("gb");
 gb.style.right = (30-gb.offsetWidth).toString() + "px";
 document.write('<a href="javascript:showHideGB()"><img style="float:left; border:0px;" src="https://images2.imgbox.com/a6/6c/hUUzGYx8_o.gif" title="Close/Tutup" /></a>');
