@@ -1,6 +1,7 @@
-// ----------------------------------------
-// SHOW RECENT COMMENTS
-// ----------------------------------------
+// --------------------------------
+// RECENT COMMENTS
+// Author:  Kang eNeS
+// --------------------------------
 
 //<![CDATA[
 function showrecentcomments(json) {
