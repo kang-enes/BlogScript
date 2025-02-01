@@ -1,3 +1,6 @@
+/* JS SC COMMUNITY 
+/* Design : Kang eNeS 
+
 /* Tabmenu4col */
 function blendoff(idname){document.getElementById(idname).style.display='none';}
 function blendon(idname){document.getElementById(idname).style.display='block';}
@@ -41,7 +44,6 @@ window.addEvent('domready', function() {
 /** JQUERY SC COMMUNITY **/
 jQuery.noConflict();
 jQuery(document).ready(function(){ 
-jQuery('.comment-body p, .cm_entry p').find('a').replaceWith('<i style="color:red">Link aktif akan dihapus otomatis</i>');
 /* toggle */
   jQuery(".eusi-sorolok").hide(); jQuery("#sorolok>h4").click(function(){ jQuery(this).toggleClass("active").next().slideToggle("slow"); });
 /*widget list */
@@ -53,3 +55,5 @@ jQuery('.comment-body p, .cm_entry p').find('a').replaceWith('<i style="color:re
 });
 /* Scrolltopdown */
 jQuery(function(){ jQuery('a[href*=#]').click(function(){if(location.pathname.replace(/^\//,'')==this.pathname.replace(/^\//,'')&&location.hostname==this.hostname){var $target=jQuery(this.hash);$target=$target.length&&$target||jQuery('[name='+this.hash.slice(1)+']');if($target.length){var targetOffset=$target.offset().top;jQuery('html,body').animate({scrollTop:targetOffset},1000);return false;}}});});
+
+
