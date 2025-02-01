@@ -9,6 +9,8 @@
 // URL:     ruangsc.blogspot.com
 // ----------------------------------------
 
+//<![CDATA[
+
 function tabview_aux(TabViewId, id)
 {
 var TabView = document.getElementById(TabViewId);
@@ -58,3 +60,5 @@ while (Page = Page.nextSibling);
 
 function tabview_switch(TabViewId, id) { tabview_aux(TabViewId, id); }
 function tabview_initialize(TabViewId) { tabview_aux(TabViewId, 1); }
+
+//]]>
