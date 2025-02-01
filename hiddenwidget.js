@@ -1,11 +1,9 @@
-// ----------------------------------------
+// ------------------------
 // HIDDEN WIDGET
-// ----------------------------------------
-//
-// Date:    07-01-2010
 // Author:  Kang eNeS
-// URL:     ruangsc.blogspot.com
-// ----------------------------------------
+// ------------------------
+
+//<![CDATA[
 
 var gb_obj = document.getElementById("hidden_gb");
 var gb_finish = false;
@@ -49,3 +47,5 @@ function writex(str){
 gb_setInitBehaviour();
 document.write('<div style="float:left;"><a href="javascript:void(0)" onclick="gb_showHideGB()"><img style="float:left; border:0px;" src="http://i563.photobucket.com/albums/ss76/peace_enes/SC/close.gif" title="Close/Tutup" /></a></div>');
 document.write('<div style="font-family:Arial; font-size:8pt; float:left; padding-left:5px;  margin-top:15px;"><a href="http://ruangsc.blogspot.com/2010/03/membuat-hidden-widget-buku-tamu-widget.html" target="_blank" title="Cara membuat Hidden Widget">Widget by SC Community</a></div>');
+
+//]]>
