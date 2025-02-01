@@ -1,6 +1,7 @@
-// ----------------------------------------
-// SHOW RECENT COMMENTS SC COMMUNITY
-// ----------------------------------------
+// --------------------------------
+// RECENT COMMENTS SC COMMUNITY
+// Author:  Kang eNeS
+// --------------------------------
 
 //<![CDATA[
 function showrecentcomments(json) {
