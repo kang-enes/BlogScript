@@ -1,6 +1,9 @@
-/*=== SC Special (blockquot.jpg) ===*/
+/* CSS SC COMMUNITY 
+/* Design : Kang eNeS 
+
+/*=== SC Special ===*/
 .entry blockquote, .entry pre {
-background:#DDF2FC url(https://images2.imgbox.com/44/38/V8YiWEt6_o.jpg) repeat-y top left;
+background:#DDF2FC url(https://images2.imgbox.com/44/38/V8YiWEt6_o.jpg) repeat-y top left; /* blockquot.jpg */
 width:auto;
 overflow-x:hidden; overflow-y:auto;
 -ms-overflow-x:hidden; -ms-overflow-y:auto;
@@ -235,9 +238,9 @@ color:#045EC4;
 .widgethidden {display:none}
 .widgetshown {display:inline}
 
-/*=== Related Posts (bgtabview.gif) ===*/ 
+/*=== Related Posts ===*/ 
 #jerodatablog {
-background:url(https://images2.imgbox.com/d5/48/R7KboX1P_o.gif);
+background:url(https://images2.imgbox.com/d5/48/R7KboX1P_o.gif); /* bgtabview.gif */
 border-left:1px solid #C0C0C0; 
 border-right:1px solid #C0C0C0; 
 border-bottom:1px solid #C0C0C0; 
@@ -384,12 +387,12 @@ font-weight:bold;
 text-shadow:1px 1px 1px #fff;
 }
 
-/* Kotak Utama (bgtabview.gif) */
+/* Kotak Utama */
 div.TabView div.Pages {
 clear:both;
 border:1px solid #CCC;
 overflow:hidden;
-background:url(https://images2.imgbox.com/d5/48/R7KboX1P_o.gif);
+background:url(https://images2.imgbox.com/d5/48/R7KboX1P_o.gif); /* bgtabview.gif */
 }
 div.TabView div.Pages div.Page {
 height:100%;
