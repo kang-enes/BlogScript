@@ -3,7 +3,6 @@
 // ----------------------------------------
 // This functions takes a blogger-feed in JSON
 // format and displays it.
-//
 // Date:    01-02-2010
 // Author:  Kang eNeS
 // URL:     ruangsc.blogspot.com
