@@ -1,3 +1,8 @@
+// --------------------------------
+// RECENT POST
+// Author:  Kang eNeS
+// --------------------------------
+
 //<![CDATA[
 function showrecentposts(json) {
 
