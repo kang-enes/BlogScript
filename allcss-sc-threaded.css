@@ -185,6 +185,7 @@
     }
 
 /*=== Penomoran Komentar ===*/
+/*
 .comm-num {
     background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC2WfLPY6bWadQvk7WrhlprU9lA9fp6MAgzEr-4ZXbRQBcDlFEXuVd1v0z4nqQPOPUpIKLVdF33PT5VelfxYaQPRmCSugqcukkbB9DEFU1hPCh9d412r-qFV8QfWWJt5SJO56LEvS3xz8/s1600/sprite-sc.png) no-repeat;
     background-position:  -134px -262px;
@@ -205,7 +206,7 @@
     .comm-num a:hover, .comm-num a:active {
     color: #000;
     font-weight: bold;
-    }
+    } */
     
 /*=== BLOCKQUOTE SC ===*/
 .entry blockquote, .entry pre {
