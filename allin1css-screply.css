@@ -204,7 +204,7 @@
     -webkit-transition:all .5s ease;
     }
 
-    /*===  Header Slide Image ===*/
+/*===  Header Slide Image ===*/
 #slideshow-container  { width:301px; height:151px; position:relative;}
 #slideshow-container img { display:block; position:absolute; top:0; left:0; z-index:1; color:#000;}
 
