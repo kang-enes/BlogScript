@@ -147,6 +147,30 @@
     width: 35px;
     height: 35px;
     }
+    
+/*=== Avatar Komentar ===*/
+.avatar-image-container {
+    box-shadow: 1px 1px 0 #CCC, 3px 3px 0 #FFF, 4px 4px 0 #CCC, 6px 6px 0 #FFF, 7px 7px 0 #CCC;
+    -webkit-box-shadow: 1px 1px 0 #CCC, 3px 3px 0 #FFF, 4px 4px 0 #CCC, 6px 6px 0 #FFF, 7px 7px 0 #CCC;
+    }
+.avatar-image-container img {
+    background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjmPIEkNN_YVlrisSPVhWfr_td5Zy3VXAfCAGqQPZObWCAUJqB7AW1XodB2a1wapOUIBeth2Igx1L6Y17WUAlrNktQVCDazwHU5tspInWMRmOkFHRB92c_bYt6yVgSDmfS_lQDTgK9pq3nFTaSmDMzCnpF9DA0DrDFAALf6dDrsjLpJdIDcwmshYxha-5_/s1600/sprite-sc.png);
+    background-position: -99px -262px;
+    width:35px; height:35px;
+    border:none;
+    }
+.avatar-image-container img:hover {
+    transform:scale(1.2) rotate(360deg);
+    -ms-transform:scale(1.2) rotate(360deg);
+    -o-transform:scale(1.2) rotate(360deg);
+    -moz-transform:scale(1.2) rotate(360deg);
+    -webkit-transform:scale(1.2) rotate(360deg);
+    transition:all .5s ease;
+    -ms-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -webkit-transition:all .5s ease;
+    }
 
 /*== Comment eNeS ==*/
 .comment-enes {
