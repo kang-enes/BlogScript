@@ -1,6 +1,34 @@
 /*--- Script Mootools untuk Blog NeSaCk oleh Kang eNeS (https://ruangsc.blogspot.com) ---*/
 
 /*--- 
+Script: Hash.Cookie.js
+deskripsi: Untuk membuat, membaca, dan menghapus Cookie dalam format JSON.
+ ---*/ 
+
+ Hash.Cookie=new Class({
+    Extends:Cookie,options:{autoSave:true},
+    initialize:function(B,A){
+        this.parent(B,A);
+        this.load();},
+        save:function(){
+            var A=JSON.encode(this.hash);
+  
+            if(!A||A.length>4096){
+                return false;}if(A=="{}"){
+                this.dispose();}
+                else{this.write(A);}
+                return true;},load:function(){this.hash=new Hash(JSON.decode(this.read(),true));
+  
+                    return this;}});
+                    Hash.Cookie.implement((function(){var A={};
+                    Hash.each(Hash.prototype,function(C,B){A[B]=function(){
+                        var D=C.apply(this.hash,arguments);
+                        if(this.options.autoSave){
+                            this.save();}
+                            return D;};});
+                            return A;})());
+  
+  /*--- 
 Script: Fx.Slide.js
 Deskripsi: Efek toggle untuk menggeser elemen ke dalam dan ke luar tampilan.
 ---*/ 
