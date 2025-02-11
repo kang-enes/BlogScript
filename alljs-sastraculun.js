@@ -189,8 +189,8 @@ jQuery.noConflict();
 jQuery(document).ready(function(){ 
 
 /* toggle */
-  jQuery(".eusi-sorolok").hide(); 
-  jQuery("#sorolok>h4").click(function(){ jQuery(this).toggleClass("active").next().slideToggle("slow"); });
+  jQuery(".toggle-content").hide(); 
+  jQuery("#toggle-container>h4").click(function(){ jQuery(this).toggleClass("active").next().slideToggle("slow"); });
 
 /* sidebars */
 jQuery('.widget-content li a').hover(function() {
