@@ -1,4 +1,5 @@
-//<![CDATA[
+/* Scrolltopdown */
+
 jQuery.noConflict();
 jQuery(function(){ 
 
@@ -12,4 +13,3 @@ jQuery(function(){
                 jQuery('html,body').animate({scrollTop: targetOffset}, 1000);                    
                 return false; } }        
     }); });
-//]]>
