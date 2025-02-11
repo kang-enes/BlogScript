@@ -1,4 +1,4 @@
-/*--- Script untuk NeSaCk oleh Kang eNeS (https://ruangsc.blogspot.com) ---*/
+/*--- Script JQuery untuk Blog NeSaCk oleh Kang eNeS (https://ruangsc.blogspot.com) ---*/
 
 /*--- 
 Script: slider-start-stop.js
