@@ -40,13 +40,6 @@ Script: Non-jQuery.js
 Deskripsi: Untuk Togglespoiler
 ---*/ 
 
-/*--- v-toggle ---*/ 
-    window.addEvent('domready', function() {
-    var myVerticalSlide = new Fx.Slide('v_juljol').hide(); $('v_toggle').addEvent('click', function(event){ event.stop(); 
-        myVerticalSlide.toggle(); }); $('v_nyumput').addEvent('click', function(event){ event.stop(); 
-        myVerticalSlide.slideOut(); });
-    });
-    
 /*--- Togglespoiler ---*/ 
 function togglespoiler (postid){
     var whichpost = document.getElementById(postid);
