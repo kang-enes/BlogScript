@@ -1,4 +1,5 @@
 /* Image Slideshow-1 */
+
 window.addEvent('domready',function() {
   /* settings */
   var showDuration = 3000;
