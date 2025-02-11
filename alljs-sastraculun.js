@@ -4,7 +4,7 @@
 // STICKYSOCIAL DAN SCROLL TOP-DOWN
 //===========================================
 
-
+//<![CDATA[
 jQuery.noConflict();
 
 //  Untuk Stickysocial
@@ -42,11 +42,14 @@ jQuery(function(){
             jQuery('html,body').animate({scrollTop: targetOffset}, 1000);
             return false; } } }); 
         });
+//]]>
+
 
 //===========================================
 // SHOW RAINBOW EFFECT FOR LINK HOVER
 //===========================================
 
+//<![CDATA[
 var rate = 20;  // Increase amount(The degree of the transmutation)
 
 if (document.getElementById)
@@ -232,3 +235,4 @@ function makeColor()
 
     return '#' + elmR + elmG + elmB;
 }
+//]]>
