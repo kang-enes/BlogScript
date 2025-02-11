@@ -90,6 +90,43 @@ jQuery(function(){
 
 });
 
+
+/*--- 
+Script Mootools
+Deskripsi: Teks dan Gambar Slide, V-Toogle, Kecerahan, dll.
+---*/ 
+
+window.addEvent('domready', function() {
+	/*--- Image Slideshow ---*/ 
+	
+	/*--- settings ---*/ 
+		var showDuration = 3000; var container = $('slideshow-container'); var images = container.getElements('img'); var currentIndex = 0; var interval;
+	
+	/*--- opacity and fade ---*/ 
+		images.each(function(img,i){ if(i > 0) { img.set('opacity',0); } });
+	
+	/*--- worker ---*/ 
+		var show = function() { images[currentIndex].fade('out'); images[currentIndex = currentIndex < images.length - 1 ? currentIndex+1 : 0].fade('in'); };
+	
+	/*--- start once the page is finished loading ---*/ 
+		window.addEvent('load',function(){ interval = show.periodical(showDuration); });
+	
+	/*--- text-slide ---*/ 
+		var list = $('news-feed').getFirst('ul'); 
+		var items = list.getElements('li'); var showDuration = 3000; 
+		var scrollDuration = 500; var index = 0; 
+		var height = items[0].getSize().y;
+		var move = function() { list.set('tween',{ duration: scrollDuration, onComplete: function() { 
+		  if(index == items.length - 1) { index = 0 - 1; list.scrollTo(0,0); } } }).tween('top',0 - (++index * height)); };
+		window.addEvent('load',function() { move.periodical(showDuration);});
+		
+	/*--- v-toggle ---*/ 
+		var myVerticalSlide = new Fx.Slide('v_juljol').hide(); $('v_toggle').addEvent('click', function(event){ event.stop(); 
+			myVerticalSlide.toggle(); }); $('v_nyumput').addEvent('click', function(event){ event.stop(); 
+			myVerticalSlide.slideOut(); });
+		});
+	
+
 /*--- 
 Script JQuery Lainnya
 Deskripsi: Toogle, stickysocial, Scrolltopdown, dll.
@@ -120,39 +157,3 @@ jQuery(function(){ jQuery('a[href*=#]').click(function(){
 /*--- Togglespoiler ---*/
 function togglespoiler (postid){
   var whichpost = document.getElementById(postid);if (whichpost.className=="widgetshown"){whichpost.className="widgethidden";} else{whichpost.className="widgetshown";}}
-
-/*--- 
-Script Mootools
-Deskripsi: Teks dan Gambar Slide, V-Toogle, Kecerahan, dll.
----*/ 
-
-window.addEvent('domready', function() {
-  /*--- Image Slideshow ---*/ 
-  
-  /*--- settings ---*/ 
-      var showDuration = 3000; var container = $('slideshow-container'); var images = container.getElements('img'); var currentIndex = 0; var interval;
-  
-  /*--- opacity and fade ---*/ 
-      images.each(function(img,i){ if(i > 0) { img.set('opacity',0); } });
-  
-  /*--- worker ---*/ 
-      var show = function() { images[currentIndex].fade('out'); images[currentIndex = currentIndex < images.length - 1 ? currentIndex+1 : 0].fade('in'); };
-  
-  /*--- start once the page is finished loading ---*/ 
-      window.addEvent('load',function(){ interval = show.periodical(showDuration); });
-  
-  /*--- text-slide ---*/ 
-      var list = $('news-feed').getFirst('ul'); 
-      var items = list.getElements('li'); var showDuration = 3000; 
-      var scrollDuration = 500; var index = 0; 
-      var height = items[0].getSize().y;
-      var move = function() { list.set('tween',{ duration: scrollDuration, onComplete: function() { 
-        if(index == items.length - 1) { index = 0 - 1; list.scrollTo(0,0); } } }).tween('top',0 - (++index * height)); };
-      window.addEvent('load',function() { move.periodical(showDuration);});
-      
-  /*--- v-toggle ---*/ 
-      var myVerticalSlide = new Fx.Slide('v_juljol').hide(); $('v_toggle').addEvent('click', function(event){ event.stop(); 
-          myVerticalSlide.toggle(); }); $('v_nyumput').addEvent('click', function(event){ event.stop(); 
-          myVerticalSlide.slideOut(); });
-      });
-  
