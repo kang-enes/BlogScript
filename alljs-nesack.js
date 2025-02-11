@@ -91,6 +91,7 @@ jQuery(function(){
 });
 
 /*--- Scrolltopdown ---*/
+jQuery.noConflict();
 jQuery(function(){ 
 	
     jQuery('a[href*=#]').click(function() {   
