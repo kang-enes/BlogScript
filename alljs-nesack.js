@@ -111,35 +111,95 @@ jQuery(document).ready(function(){
 	  jQuery(this).fadeTo('slow', 1); }, function() { jQuery(this).fadeTo('slow', 0.75); });
   });
   
+
+/*--- 
+Script: slideshow-more
+Deskripsi: Untuk Gambar Slideshow
+---*/
+
+window.addEvent('domready',function() {
+	/* settings */
+	var showDuration = 3000;
+	var container = $('slideshow-container');
+	var images = container.getElements('img');
+	var currentIndex = 0;
+	var interval;
+	var toc = [];
+	var tocWidth = 20;
+	var tocActive = 'toc-active';
+	
+	/* new: starts the show */
+	var start = function() { interval = show.periodical(showDuration); };
+	var stop = function() { $clear(interval); };
+	/* worker */
+	var show = function(to) {
+	  images[currentIndex].fade('out');
+	  toc[currentIndex].removeClass(tocActive);
+	  images[currentIndex = ($defined(to) ? to : (currentIndex < images.length - 1 ? currentIndex+1 : 0))].fade('in');
+	  toc[currentIndex].addClass(tocActive);
+	};
+	
+	/* new: control: table of contents */
+	images.each(function(img,i){
+	  toc.push(new Element('a',{
+		text: i+1,
+		href: '#',
+		'class': 'toc' + (i == 0 ? ' ' + tocActive : ''),
+		events: {
+		  click: function(e) {
+			if(e) e.stop();
+			stop();
+			show(i);
+		  }
+		},
+		styles: {
+		  left: ((i + 1) * (tocWidth + 10))
+		}
+	  }).inject(container));
+	  if(i > 0) { img.set('opacity',0); }
+	});
+	
+	/* new: control: next and previous */
+	var next = new Element('a',{
+	  href: '#',
+	  id: 'next',
+	  text: '>>',
+	  events: {
+		click: function(e) {
+		  if(e) e.stop();
+		  stop(); show();
+		}
+	  }
+	}).inject(container);
+	var previous = new Element('a',{
+	  href: '#',
+	  id: 'previous',
+	  text: '<<',
+	  events: {
+		click: function(e) {
+		  if(e) e.stop();
+		  stop(); show(currentIndex != 0 ? currentIndex -1 : images.length-1);
+		}
+	  }
+	}).inject(container);
+	
+	/* new: control: start/stop on mouseover/mouseout */
+	container.addEvents({
+	  mouseenter: function() { stop(); },
+	  mouseleave: function() { start(); }
+	});
+	
+	/* start once the page is finished loading */
+	window.addEvent('load',function(){
+	  start();
+	});
+  });
+
 /*--- 
 Script Mootools
-Deskripsi: Teks dan Gambar Slide, V-Toogle, Kecerahan, dll.
+Deskripsi: V-Toogle dan Togglespoiler
 ---*/ 
-
-window.addEvent('domready', function() {
-/*--- Image Slideshow ---*/ 
 	
-/*--- settings ---*/ 
-var showDuration = 3000; var container = $('slideshow-container'); var images = container.getElements('img'); var currentIndex = 0; var interval;
-	
-/*--- opacity and fade ---*/ 
-	images.each(function(img,i){ if(i > 0) { img.set('opacity',0); } });
-	
-/*--- worker ---*/ 
-var show = function() { images[currentIndex].fade('out'); images[currentIndex = currentIndex < images.length - 1 ? currentIndex+1 : 0].fade('in'); };
-	
-/*--- start once the page is finished loading ---*/ 
-	window.addEvent('load',function(){ interval = show.periodical(showDuration); });
-	
-/*--- text-slide ---*/ 
-var list = $('news-feed').getFirst('ul'); 
-var items = list.getElements('li'); var showDuration = 3000; 
-var scrollDuration = 500; var index = 0; 
-var height = items[0].getSize().y;
-var move = function() { list.set('tween',{ duration: scrollDuration, onComplete: function() {
-	if(index == items.length - 1) { index = 0 - 1; list.scrollTo(0,0); } } }).tween('top',0 - (++index * height)); };
-	window.addEvent('load',function() { move.periodical(showDuration);});
-		
 /*--- v-toggle ---*/ 
 var myVerticalSlide = new Fx.Slide('v_juljol').hide(); $('v_toggle').addEvent('click', function(event){ event.stop(); 
 	myVerticalSlide.toggle(); }); $('v_nyumput').addEvent('click', function(event){ event.stop();
