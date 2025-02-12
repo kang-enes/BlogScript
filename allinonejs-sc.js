@@ -119,9 +119,9 @@ window.addEvent('domready', function() {
       if(index == items.length - 1) { index = 0 - 1; list.scrollTo(0,0); } } }).tween('top',0 - (++index * height)); };
     window.addEvent('load',function() { move.periodical(showDuration);});
     
-/*--- v-toggle ---*/ 
-    var myVerticalSlide = new Fx.Slide('v_juljol').hide(); $('v_toggle').addEvent('click', function(event){ event.stop(); 
-        myVerticalSlide.toggle(); }); $('v_nyumput').addEvent('click', function(event){ event.stop(); 
+/*--- VerticalSlide ---*/ 
+    var myVerticalSlide = new Fx.Slide('juljol').hide(); $('nonghol').addEvent('click', function(event){ event.stop(); 
+        myVerticalSlide.toggle(); }); $('nyumput').addEvent('click', function(event){ event.stop(); 
         myVerticalSlide.slideOut(); });
     });
     
