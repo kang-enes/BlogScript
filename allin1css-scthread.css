@@ -113,39 +113,6 @@
     -webkit-transition:all .5s ease;
     }
 
-/*=== Penomoran Komentar ===*/
-.comm-num {
-    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjmPIEkNN_YVlrisSPVhWfr_td5Zy3VXAfCAGqQPZObWCAUJqB7AW1XodB2a1wapOUIBeth2Igx1L6Y17WUAlrNktQVCDazwHU5tspInWMRmOkFHRB92c_bYt6yVgSDmfS_lQDTgK9pq3nFTaSmDMzCnpF9DA0DrDFAALf6dDrsjLpJdIDcwmshYxha-5_/s1600/sprite-sc.png) no-repeat;
-    background-position:  -134px -262px;
-    width: 30px; height: 34px;
-    float:right;
-    margin: -5px -5px -10px 0;
-    }
-.comm-num a:link, .comm-num a:visited {
-    display: block;
-    line-height: 30px;
-    color: #000;
-    text-align: center;
-    text-shadow: 1px 1px 1px #fff;
-    font-family: "Lucida Grande", Arial, Helvetica, Sans-Serif;
-    font-size: 13px;
-    font-weight: normal;
-    }
-.comm-num a:hover, .comm-num a:active {
-    color: #000;
-    font-weight: bold;
-    transform:scale(1.2) rotate(360deg);
-    -ms-transform:scale(1.2) rotate(360deg);
-    -o-transform:scale(1.2) rotate(360deg);
-    -moz-transform:scale(1.2) rotate(360deg);
-    -webkit-transform:scale(1.2) rotate(360deg);
-    transition:all .5s ease;
-    -ms-transition:all .5s ease;
-    -o-transition:all .5s ease;
-    -moz-transition:all .5s ease;
-    -webkit-transition:all .5s ease;
-    }
-
 /*===  Header Slide Image ===*/
 #slideshow-container  { width:301px; height:151px; position:relative;}
 #slideshow-container img { display:block; position:absolute; top:0; left:0; z-index:1; color:#000;}
@@ -307,7 +274,7 @@ color:#045EC4;
     }
     
 /*=== Transition dan Hover ===*/
-.post-title, .post img, .readmore, .custom_images a img, .sociable img, .avatar-image-container img, .comm-num a:link, .luhur-handap img:hover {
+.post-title, .post img, .readmore, .custom_images a img, .sociable img, .avatar-image-container img, .luhur-handap img:hover {
     transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
@@ -331,7 +298,7 @@ color:#045EC4;
     filter: alpha(opacity=75);
     }
     
-    .sharethis_toolbox .custom_images img:hover, .sociable img:hover, .comm-num a:hover, .avatar-image-container img:hover {
+    .sharethis_toolbox .custom_images img:hover, .sociable img:hover, .avatar-image-container img:hover {
     transform:scale(1.2) rotate(360deg);
     -ms-transform:scale(1.2) rotate(360deg);
     -o-transform:scale(1.2) rotate(360deg);
