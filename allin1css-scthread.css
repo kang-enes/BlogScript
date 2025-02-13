@@ -28,8 +28,9 @@
     background:#fafafa url(url comment) top repeat-x;
     margin:5px auto 0;
     padding:5px 5px;
-    border:1px solid silver;
-    background: #FBFBEE;
+    border:1px solid silver;    
+    background: #FFFFFF;
+    /*background: #FBFBEE;*/
     }
 .comment-actions a { 
     padding:2px 5px;
