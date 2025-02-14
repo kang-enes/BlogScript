@@ -154,3 +154,13 @@ jQuery(function(){
             jQuery(this).animate({ paddingLeft: '0px' }, {duration:250});           
        });
     });
+
+/*--- Togglespoiler ---*/ 
+function togglespoiler (postid){
+	var whichpost = document.getElementById(postid);
+	if (whichpost.className=="widgetshown"){
+		whichpost.className="widgethidden";} 
+		else{
+		whichpost.className="widgetshown";
+		}}
+  
