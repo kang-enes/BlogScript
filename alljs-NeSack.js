@@ -7,7 +7,7 @@ Deskripsi: Untuk Bingkai Foto
 
 window.addEvent('domready',function() {
 	/* settings */
-	var showDuration = 4000;
+	var showDuration = 3000;
 	var container = $('bingkai');
 	var images = container.getElements('img');
 	var currentIndex = 0;
