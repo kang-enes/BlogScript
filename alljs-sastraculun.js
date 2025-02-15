@@ -200,11 +200,6 @@ jQuery('.widget-content li a').hover(function() {
 /*--- sociable img ---*/
   jQuery('.sociable img').fadeTo('slow', 0.4); jQuery('.sociable img').hover(function() { jQuery(this).fadeTo('slow', 1); }, function() { jQuery(this).fadeTo('slow', 0.4); });
 
-/*--- stickysocial dan luhur-handap ---*/
-  jQuery('.stickysocial img, .luhur-handap img').fadeTo('slow', 0.75); 
-  jQuery('.stickysocial img, .luhur-handap img').hover(function() { 
-    jQuery(this).fadeTo('slow', 1); }, function() { jQuery(this).fadeTo('slow', 0.75); });});
-
 /*--- Scrolltopdown ---*/
 jQuery(function(){ jQuery('a[href*=#]').click(function(){
   if(location.pathname.replace(/^\//,'')==this.pathname.replace(/^\//,'')&&location.hostname==this.hostname){
