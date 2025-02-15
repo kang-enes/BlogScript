@@ -613,7 +613,6 @@ img.sbm14 {
     img.sticky7 {
         background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjP4Y-AnX69SQY7aVdakxAkI1cJb6qgOcanCDOSYhMdGYCtIdSQDN5x3vXhpaBXUdltI_AkrBL_vQf65PG35bHK2_XSVvi69pruHp7EZ3MmRRr5_DWeybUiijRW4GNa9lQkBVQY7LfAPYs_Kw4fSY9ljwegqAkalKhLZ01j9UWHv9jPDxwwwcpoxmsQoSo/s1600/icon-sprite.png) -222px -48px; width:37px;}
 
-
 /*=== Floating Image ===*/
 #globe-muter { position:fixed; _position:absolute; top:7px; left:15px; clip:inherit; z-index:+1000;}
 .luhur-handap {
@@ -622,3 +621,27 @@ img.luhur {
     background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjmPIEkNN_YVlrisSPVhWfr_td5Zy3VXAfCAGqQPZObWCAUJqB7AW1XodB2a1wapOUIBeth2Igx1L6Y17WUAlrNktQVCDazwHU5tspInWMRmOkFHRB92c_bYt6yVgSDmfS_lQDTgK9pq3nFTaSmDMzCnpF9DA0DrDFAALf6dDrsjLpJdIDcwmshYxha-5_/s1600/sprite-sc.png) 0px -262px; width:32px; height:32px;}
 img.handap {
     background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjmPIEkNN_YVlrisSPVhWfr_td5Zy3VXAfCAGqQPZObWCAUJqB7AW1XodB2a1wapOUIBeth2Igx1L6Y17WUAlrNktQVCDazwHU5tspInWMRmOkFHRB92c_bYt6yVgSDmfS_lQDTgK9pq3nFTaSmDMzCnpF9DA0DrDFAALf6dDrsjLpJdIDcwmshYxha-5_/s1600/sprite-sc.png) -32px -262px; width:32px; height:32px;}
+
+/*=== Rolling Widget Buku Tamu ===*/
+#gb{
+    position:fixed;
+    top:0px;
+    right:0px;
+    z-index:+1000;
+    }
+    * html #gb{position:relative;
+    }
+    .gbtab{
+    height:100px; 
+    width:30px; 
+    float:left;
+    cursor:pointer;
+    background:none;
+    }
+    .gbcontent{
+    float:left;
+    border:2px solid #888888; /*warna bingkai*/
+    background:#F0F0F0; /*warna latar*/
+    padding:5px 10px 0px 10px;
+    }
+    
