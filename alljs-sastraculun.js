@@ -188,9 +188,9 @@ Deskripsi: Untuk sagalarupa
 jQuery.noConflict();
 jQuery(document).ready(function(){ 
 
-/*--- toggle ---*/
-  jQuery(".toggle-content").hide(); 
-  jQuery("#toggle-container>h4").click(function(){ jQuery(this).toggleClass("active").next().slideToggle("slow"); });
+/*--- toggle ---*/ 
+jQuery(".eusi-sorolok").hide(); 
+jQuery("#sorolok>h4").click(function(){ jQuery(this).toggleClass("active").next().slideToggle("slow"); });
 
 /*--- widget content list ---*/
 jQuery('.widget-content li a').hover(function() {
