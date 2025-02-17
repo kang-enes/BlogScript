@@ -291,7 +291,7 @@ color:#045EC4;
     filter: alpha(opacity=100); 
     }
     
-    #sorolok h4:hover, .sharethis_toolbox .custom_images a img, .luhur-handap img {
+    #sorolok h4:hover, .medsos_toolbox .custom_images a img, .luhur-handap img {
     opacity: 0.75;
     -o-opacity: 0.75;
     -moz-opacity: 0.75;
@@ -299,7 +299,7 @@ color:#045EC4;
     filter: alpha(opacity=75);
     }
     
-    .sharethis_toolbox .custom_images img:hover, .sociable img:hover, .avatar-image-container img:hover {
+    .medsos_toolbox .custom_images img:hover, .sociable img:hover, .avatar-image-container img:hover {
     transform:scale(1.2) rotate(360deg);
     -ms-transform:scale(1.2) rotate(360deg);
     -o-transform:scale(1.2) rotate(360deg);
@@ -487,12 +487,12 @@ div.TabView div.Tabs {
     }
 
 /*=== Header Sharethis ===*/
-.sharethis_toolbox {
+.medsos_toolbox {
     margin-right:10px;
     padding:5px 0 5px 0;
     text-align:center;
     }
-    .sharethis_toolbox .custom_images a {
+    .medsos_toolbox .custom_images a {
     width:32px;
     height:32px;
     margin:0 2px 0 2px;
