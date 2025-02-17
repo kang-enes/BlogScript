@@ -188,21 +188,37 @@ Deskripsi: Untuk sagalarupa
 jQuery.noConflict();
 jQuery(document).ready(function(){ 
 
-/*--- toggle ---*/ 
-jQuery(".eusi-sorolok").hide(); 
-jQuery("#sorolok>h4").click(function(){ jQuery(this).toggleClass("active").next().slideToggle("slow"); });
+/* togle vertikal */
+jQuery('.eusi-sorolok').hide(); 
+jQuery('#sorolok>h4').click(function(){ 
+  jQuery(this).toggleClass('active').next().slideToggle('slow');
+});
 
 /*--- widget content list ---*/
 jQuery('.widget-content li a').hover(function() {
   jQuery(this).animate({ paddingLeft: '17px' }, {duration:250});}, function() {
-  jQuery(this).animate({ paddingLeft: '15px' }, {duration:250});});
+  jQuery(this).animate({ paddingLeft: '15px' }, {duration:250});
+});
 
-/*--- sociable img ---*/
-  jQuery('.sociable img').fadeTo('slow', 0.4); jQuery('.sociable img').hover(function() { jQuery(this).fadeTo('slow', 1); }, function() { jQuery(this).fadeTo('slow', 0.4); });
+/*--- sociable img ---*/ 
+jQuery('.sociable img').fadeTo('slow', 0.4); 
+jQuery('.sociable img').hover(function() { 
+  jQuery(this).fadeTo('slow', 1); }, function() { 
+    jQuery(this).fadeTo('slow', 0.4);
+});
 
 /*--- Scrolltopdown ---*/
 jQuery(function(){ jQuery('a[href*=#]').click(function(){
   if(location.pathname.replace(/^\//,'')==this.pathname.replace(/^\//,'')&&location.hostname==this.hostname){
   var $target=jQuery(this.hash);$target=$target.length&&$target||jQuery('[name='+this.hash.slice(1)+']');if($target.length){
     var targetOffset=$target.offset().top;jQuery('html,body').animate({scrollTop:targetOffset},1000);return false;}}});
+});
+
+/*--- stickysocial, luhur-handap ---*/ 
+jQuery('.stickysocial img, .luhur-handap img').fadeTo('slow', 0.88); 
+jQuery('.stickysocial img, .luhur-handap img').hover(function() { 
+  jQuery(this).fadeTo('slow', 1); }, function() { 
+    jQuery(this).fadeTo('slow', 0.88); 
+});
+
 });
