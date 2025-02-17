@@ -500,21 +500,19 @@ div.TabView div.Tabs {
     }
 
     img.share1 {
-        background:url(https://images2.imgbox.com/bb/c8/qVLFnEab_o.png) 0 0; width:48px;}
+        background:url(https://images2.imgbox.com/cb/4e/HRSGDxVE_o.png) 0 0; width:32px;}
     img.share2 {
-        background:url(https://images2.imgbox.com/bb/c8/qVLFnEab_o.png) -48px 0; width:48px;}
+        background:url(https://images2.imgbox.com/cb/4e/HRSGDxVE_o.png) -32px 0; width:32px;}
     img.share3 {
-        background:url(https://images2.imgbox.com/bb/c8/qVLFnEab_o.png) -96px 0; width:48px;}
+        background:url(https://images2.imgbox.com/cb/4e/HRSGDxVE_o.png) -64px 0; width:32px;}
     img.share4 {
-        background:url(https://images2.imgbox.com/bb/c8/qVLFnEab_o.png) -144px 0; width:48px;}
+        background:url(https://images2.imgbox.com/cb/4e/HRSGDxVE_o.png) -96px 0; width:32px;}
     img.share5 {
-         background:url(https://images2.imgbox.com/bb/c8/qVLFnEab_o.png) -192px 0; width:48px;}
+         background:url(https://images2.imgbox.com/cb/4e/HRSGDxVE_o.png) -128px 0; width:32px;}
     img.share6 {
-        background:url(https://images2.imgbox.com/bb/c8/qVLFnEab_o.png) -240px 0; width:48px;}
+        background:url(https://images2.imgbox.com/cb/4e/HRSGDxVE_o.png) -160px 0; width:32px;}   
     img.share7 {
-        background:url(https://images2.imgbox.com/bb/c8/qVLFnEab_o.png) -288px 0; width:48px;}       
-    img.share7 {
-        background:url(https://images2.imgbox.com/bb/c8/qVLFnEab_o.png) -336px 0; width:48px;}       
+        background:url(https://images2.imgbox.com/cb/4e/HRSGDxVE_o.png) -192px 0; width:32px;}          
 
 /*=== Social Bookmark ===*/
 div.sociable { margin: 16px 0 0 0; text-align: center; }
