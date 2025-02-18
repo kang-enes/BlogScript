@@ -340,7 +340,7 @@ color:#045EC4;
     }
     .tandatangan {
     text-align:right;
-    margin:5px 10px 0 0;
+    margin:10px 10px 0 0;
     }
     .nuhun {
     background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1OSTfIfMcYtpteSCls4MDQVUL7vvv0iEUPMV_WjDGdEG0XwsZsV2t5xn6iFfgS46Ed5M-fXe74IN-KpGfgh0Stb-W_08xnzCOX69R7UTm-P6gpMnOR0eLmS5soMSY_EDuJwe-68NJRE3snx1Ld-9PRt84zKobnPJRbWrb-r2YnDKJ-LZzI4s1tX3In13R/s1600/meta-sprite.png) center left no-repeat; /* meta-sprite.png */
@@ -610,7 +610,7 @@ div.TabView div.Tabs {
         background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPMGoebLfIxyja3CsPyhlb3wr4GGOgfjXH3ODmTfDVClh5eX_gadx-hk4UViCmaeOV8sj31HPxmjzRMiLF27nKu3CmupCkyhVQZvWJt3Q8icHngs6w7rGZApPxvlC06ziPJUuKPPVo_WG4AruNU5J1dtuiXBKjus0piP9zP2LqxRyd35RoQjmVKksKju8/s1600/sprites-sociable.png) -160px -20px; width:32px;}        
 
 /*=== Social Bookmark ===*/
-div.sociable { margin: 20px 0 0 0; text-align: center; }
+div.sociable { margin: 0 0 0 0; text-align: center; }
 span.sociable_tagline { position: relative; }
 span.sociable_tagline span { display: none; width: 14em; }
 span.sociable_tagline:hover span {
