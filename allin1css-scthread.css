@@ -548,11 +548,11 @@ height: 20px;
 border: 0;
 margin: 0px 4px 5px 4px; /*jarak antargambar*/
 padding: 0;
-opacity: 0.75;
--o-opacity: 0.75;
--moz-opacity: 0.75;
--webkit-opacity: 0.75;
-/*filter: alpha(opacity=75);*/
+opacity: 0.85;
+-o-opacity: 0.85;
+-moz-opacity: 0.85;
+-webkit-opacity: 0.85;
+filter: alpha(opacity=85);
 }
 .sociable img:hover{}
 img.sbm1 {
