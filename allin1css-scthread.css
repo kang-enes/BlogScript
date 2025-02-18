@@ -552,7 +552,7 @@ opacity: 0.75;
 -o-opacity: 0.75;
 -moz-opacity: 0.75;
 -webkit-opacity: 0.75;
-filter: alpha(opacity=75);
+/*filter: alpha(opacity=75);*/
 }
 .sociable img:hover{}
 img.sbm1 {
