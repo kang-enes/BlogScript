@@ -242,7 +242,7 @@ color:#045EC4;
 /*== Arabic Letter ==*/
 .arabic {
     font-size: 26px;
-    font-family: 'KFGQPC Uthman Taha Naskh', KFGQPC_Naskh, 'traditional arabic';
+    font-family: 'KFGQPC Uthman Taha Naskh', 'KFGQPC_Naskh', 'traditional arabic';
     font-weight: normal;
     line-height: 34px;
     margin-top: 10px; 
