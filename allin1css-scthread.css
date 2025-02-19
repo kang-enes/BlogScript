@@ -599,17 +599,6 @@ img.sbm12 {background-position:-220px 0;}
     img.sticky6 {background-position:-185px -48px;}
     img.sticky7 {background-position:-222px -48px;}
 
-/*=== Floating Image ===*/
-#globe-muter { position:fixed; _position:absolute; top:7px; left:15px; clip:inherit; z-index:+1000;}
-.luhur-handap {
-    position:fixed;_position:absolute; bottom:3px; right:5px; clip:inherit; z-index:+1000; vertical-align:bottom; width:30px;}
-    img.luhur, img.handap {
-        width:32px;
-        height:32px;
-        background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjmPIEkNN_YVlrisSPVhWfr_td5Zy3VXAfCAGqQPZObWCAUJqB7AW1XodB2a1wapOUIBeth2Igx1L6Y17WUAlrNktQVCDazwHU5tspInWMRmOkFHRB92c_bYt6yVgSDmfS_lQDTgK9pq3nFTaSmDMzCnpF9DA0DrDFAALf6dDrsjLpJdIDcwmshYxha-5_/s1600/sprite-sc.png)
-    }
-    img.luhur {background-position:0 -262px;}
-    img.handap {background-position:-32px -262px;}
 
 /*=== Rolling Widget Buku Tamu ===*/
 #gb{
