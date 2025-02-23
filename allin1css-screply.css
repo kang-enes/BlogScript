@@ -1,360 +1,187 @@
 /* CSS REPLY SC COMMUNITY
-/* Design : Kang eNeS 
+/* Design :Kang eNeS 
 
 /*=== REPLY COMMENT ===*/
-#cm_block {
-    padding:0 5px;
-    margin-bottom:20px;
-    border:1px solid silver;
-    /*height:300px;
-    overflow:auto;*/
-    }
-    .cm_wrap {
-    clear:both;
-    margin: 5px 0;
-    width: 100%;
-    float: right;
-    }
-    .cm_head {
-    margin: 0;
-    width: 70px;
-    float: left;
-    }
-    .cm_reply {
-    padding-top: 5px;
-    }
-    .cm_reply a {
-    display: inline-block;
-    margin: 0;
-    padding: 1px 5px;
-    border: 1px solid #C4C4C4;
-    border-top-color: #E4E4E4;
-    border-left-color: #E4E4E4;
-    color: #424242 !important;
-    text-align: center;
-    text-shadow: 0 -1px 0 white;
-    text-decoration: none;
-    font: 11px/18px sans-serif;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -o-border-radius: 2px;
-    background: #EDEDED;
-    background: linear-gradient( center top, white 20%, #E5E5E5 100% );
-    background: -moz-linear-gradient( center top, white 20%, #E5E5E5 100% );
-    background: -webkit-linear-gradient( center top, white 20%, #E5E5E5 100% );
-    background: -o-linear-gradient( center top, white 20%, #E5E5E5 100% );
-    background: -ms-linear-gradient( center top, white 20%, #E5E5E5 100% );
-    }
-    .cm_reply a:hover {
-    text-decoration: none !important;
-    background: #CCC;
-    background: linear-gradient(center top,#EEE 20%,#CCC 100%);
-    background: -moz-linear-gradient(center top,#EEE 20%,#CCC 100%);
-    background: -webkit-linear-gradient(center top,#EEE 20%,#CCC 100%);
-    background: -o-linear-gradient(center top,#EEE 20%,#CCC 100%);
-    background: -ms-linear-gradient(center top,#EEE 20%,#CCC 100%);
-    }
-    .cm_entry {
-    padding: 10px 10px 10px 16px;
-    background:#FCFCFC;
-    border:1px solid #CCC;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    -o-border-radius:5px;
-    box-shadow: 1px 1px 2px #adadad;
-    -webkit-box-shadow: 1px 1px 2px #adadad;
-    overflow: hidden;
-    }
-    .cm_entry p {
-    margin: 0;
-    padding:0;
-    font-size: 13px;
-    color: #41484D;
-    }
-    .cm_entry-author {
-    padding: 10px 10px 10px 16px;
-    background:#F5FCF3;
-    border:1px solid #CCC;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -o-border-radius:5px;
-    -webkit-border-radius:5px;
-    box-shadow: 1px 1px 2px #adadad;
-    -webkit-box-shadow: 1px 1px 2px #adadad;
-    overflow: hidden;
-    }
-    .cm_entry-author p {
-    margin: 0;
-    padding:0;
-    font-size: 13px;
-    color: #41484D;
-    font-style:italic;
-    }
-    .cm_arrow {
-    display: block;
-    width: 9px;
-    height: 18px;
-    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhocT3aiwvMvIldXU24bIfCgynaaQMMx2Nk-UOdwYlv5L1kRuUhcHfJ1mAAIjs4kviV5O2GATJbM95rnnX7BVZPC22wTTpdrxqmD_QYx3mbx37iigdpR96DrVjIzMdJqZO5S_9r-LpSPaLb/s1600/comment-arrow.gif) no-repeat;
-    position: absolute;
-    margin-left: -25px;
-    }
-    .cm_info {
-    margin-bottom: 5px;
-    }
-    .cm_name {
-    font-weight: bold;
-    font-size: 12px;
-    float: left;
-    text-shadow: 2px 2px 2px #adadad;
-    }
-    .cm_date {
-    font-size: 10px;
-    float: right;
-    color: #666;
-    margin: 5px -5px -5px 0;
-    }
-    .cm_pagenavi {
-    font-size: 10px;
-    text-transform: uppercase;
-    color: #666;
-    text-shadow: 1px 1px white;
-    font-weight: bold;
-    }
-    .cm_pagenavi a {
-    color: #666;
-    text-decoration: none;
-    padding:10px;
-    }
-    .cm_pagenavi a:hover {
-    text-decoration: underline
-    }
-    .cm_pagenavi span {
-    color: #888;
-    background: white;
-    padding: 4px;
-    border: 1px solid #E0E0E0;
-    }
-    .cm_avatar {
-    background-image:  url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbB7g1iv_1z8XeIrT3A0zbcZBnfXwa9am44BRZdfKpswZAgCOnbtphEnRkIlrpP0zAYhJLHhJ16eZbnFUOznu4RTUp7XQMuXtuhvP-D3jN8gD-aY_PgZOpWDa-Wesxq99QehCGuxMj83E/s1600/blankavatar.png);
-    background-position:center;
-    background-repeat:no-repeat;
-    margin:0;
-    vertical-align:middle;
-    padding: 3px;
-    border: 1px solid #DDD;
-    width: 35px;
-    height: 35px;
-    }
+#cm_block {padding:0 5px; margin-bottom:20px; border:1px solid silver;} /*height:300px; overflow:auto;*/
+.cm_wrap {clear:both; margin:5px 0; width:100%; float:right;}
+.cm_head {margin:0; width:70px; float:left;}
+.cm_reply {padding-top:5px;}
+.cm_reply a {display:inline-block; margin:0; padding:1px 5px; border:1px solid #C4C4C4; border-top-color:#E4E4E4; border-left-color:#E4E4E4; 
+    color:#424242 !important; text-align:center; text-shadow:0 -1px 0 white; text-decoration:none; font:11px/18px sans-serif; border-radius:2px;
+    -webkit-border-radius:2px; -moz-border-radius:2px; -o-border-radius:2px; background:#EDEDED; 
+    background:linear-gradient( center top, white 20%, #E5E5E5 100% );
+    background:-moz-linear-gradient( center top, white 20%, #E5E5E5 100% );
+    background:-webkit-linear-gradient( center top, white 20%, #E5E5E5 100% );
+    background:-o-linear-gradient( center top, white 20%, #E5E5E5 100% );
+    background:-ms-linear-gradient( center top, white 20%, #E5E5E5 100% );}
+.cm_reply a:hover {text-decoration:none !important; background:#CCC;
+    background:linear-gradient(center top,#EEE 20%,#CCC 100%);
+    background:-moz-linear-gradient(center top,#EEE 20%,#CCC 100%);
+    background:-webkit-linear-gradient(center top,#EEE 20%,#CCC 100%);
+    background:-o-linear-gradient(center top,#EEE 20%,#CCC 100%);
+    background:-ms-linear-gradient(center top,#EEE 20%,#CCC 100%);}
+.cm_entry {padding:10px 10px 10px 16px; background:#FCFCFC; border:1px solid #CCC; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; 
+    -o-border-radius:5px; box-shadow:1px 1px 2px #adadad; -webkit-box-shadow:1px 1px 2px #adadad; overflow:hidden;}
+.cm_entry p {margin:0; padding:0; font-size:13px; color:#41484D;}
+.cm_entry-author {padding:10px 10px 10px 16px; background:#F5FCF3; border:1px solid #CCC; border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px;
+    -webkit-border-radius:5px; box-shadow:1px 1px 2px #adadad; -webkit-box-shadow:1px 1px 2px #adadad; overflow:hidden;}
+.cm_entry-author p {margin:0; padding:0; font-size:13px; color:#41484D; font-style:italic;}
+.cm_arrow {background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhocT3aiwvMvIldXU24bIfCgynaaQMMx2Nk-UOdwYlv5L1kRuUhcHfJ1mAAIjs4kviV5O2GATJbM95rnnX7BVZPC22wTTpdrxqmD_QYx3mbx37iigdpR96DrVjIzMdJqZO5S_9r-LpSPaLb/s1600/comment-arrow.gif) no-repeat;
+    display:block; width:9px; height:18px; position:absolute; margin-left:-25px;}
+.cm_info {margin-bottom:5px;}
+.cm_name {font-weight:bold; font-size:12px; float:left; text-shadow:2px 2px 2px #adadad;}
+.cm_date {font-size:10px; float:right; color:#666; margin:5px -5px -5px 0;}
+.cm_pagenavi {font-size:10px; text-transform:uppercase; color:#666;text-shadow:1px 1px white; font-weight:bold;}
+.cm_pagenavi a {color:#666; text-decoration:none; padding:10px;}
+.cm_pagenavi a:hover {text-decoration:underline}
+.cm_pagenavi span {color:#888; background:white;padding:4px; border:1px solid #E0E0E0;}
+.cm_avatar {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbB7g1iv_1z8XeIrT3A0zbcZBnfXwa9am44BRZdfKpswZAgCOnbtphEnRkIlrpP0zAYhJLHhJ16eZbnFUOznu4RTUp7XQMuXtuhvP-D3jN8gD-aY_PgZOpWDa-Wesxq99QehCGuxMj83E/s1600/blankavatar.png) center no-repeat;
+    margin:0; vertical-align:middle; padding:3px; border:1px solid #DDD; width:35px; height:35px;}
   
-/*=== Penomoran Komentar ===*/
-.comm-num {
-    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjmPIEkNN_YVlrisSPVhWfr_td5Zy3VXAfCAGqQPZObWCAUJqB7AW1XodB2a1wapOUIBeth2Igx1L6Y17WUAlrNktQVCDazwHU5tspInWMRmOkFHRB92c_bYt6yVgSDmfS_lQDTgK9pq3nFTaSmDMzCnpF9DA0DrDFAALf6dDrsjLpJdIDcwmshYxha-5_/s1600/sprite-sc.png) no-repeat;
-    background-position: -134px -262px;
-    width: 30px; height: 34px;
-    float:right;
-    margin: -5px -5px -10px 0;
-    }
-.comm-num a:link, .comm-num a:visited {
-    display: block;
-    line-height: 30px;
-    color: #000;
-    text-align: center;
-    text-shadow: 1px 1px 1px #fff;
-    font-family: "Lucida Grande", Arial, Helvetica, Sans-Serif;
-    font-size: 13px;
-    font-weight: normal;
-    }
-.comm-num a:hover, .comm-num a:active {
-    color: #000;
-    font-weight: bold;
-    transform:scale(1.2) rotate(360deg);
-    -ms-transform:scale(1.2) rotate(360deg);
-    -o-transform:scale(1.2) rotate(360deg);
-    -moz-transform:scale(1.2) rotate(360deg);
-    -webkit-transform:scale(1.2) rotate(360deg);
-    transition:all .5s ease;
-    -ms-transition:all .5s ease;
-    -o-transition:all .5s ease;
-    -moz-transition:all .5s ease;
-    -webkit-transition:all .5s ease;
-    }
+/*=== PENOMORAN KOMENTAR ===*/
+.comm-num {background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjmPIEkNN_YVlrisSPVhWfr_td5Zy3VXAfCAGqQPZObWCAUJqB7AW1XodB2a1wapOUIBeth2Igx1L6Y17WUAlrNktQVCDazwHU5tspInWMRmOkFHRB92c_bYt6yVgSDmfS_lQDTgK9pq3nFTaSmDMzCnpF9DA0DrDFAALf6dDrsjLpJdIDcwmshYxha-5_/s1600/sprite-sc.png) no-repeat;
+    background-position:-134px -262px; width:30px; height:34px; float:right; margin:-5px -5px -10px 0;}
+.comm-num a:link, .comm-num a:visited {display:block; line-height:30px; color:#000; text-align:center; text-shadow:1px 1px 1px #fff;
+    font-family:"Lucida Grande", Arial, Helvetica, Sans-Serif; font-size:13px; font-weight:normal;}
+.comm-num a:hover, .comm-num a:active {color:#000; font-weight:bold; transform:scale(1.2) rotate(360deg); -ms-transform:scale(1.2) rotate(360deg); 
+    -o-transform:scale(1.2) rotate(360deg); -moz-transform:scale(1.2) rotate(360deg); -webkit-transform:scale(1.2) rotate(360deg);
+    transition:all .5s ease; -ms-transition:all .5s ease; -o-transition:all .5s ease; -moz-transition:all .5s ease; -webkit-transition:all .5s ease;}
 
-/*=== Tabcontent Menu ===*/
-#bottomfeature {
-    clear:both;
-    width:420px;
-    padding-top:5px;
-    margin-bottom: 10px;
-    border: 1px solid #C0C0C0;
-    }
-    #autoselecttab {
-    clear:both;
-    width:400px;
-    height:25px;
-    padding:0 0 0 10px;
-    border-bottom: 1px solid #C0C0C0;
-    }
-    #fourtab {
-    position:relative;
-    height:25px;
-    font-size:12px;
-    font-weight:normal;
-    background:transparent;
-    font-family: Arial,Helvitica,sans-serif;
-    }
-    #fourtab ul {
-    margin:0;
-    padding:0;
-    list-style-type:none;
-    width:auto;
-    }
-    #fourtab ul li {
-    display:block;
-    float:left;
-    margin:0;
-    }
-    #fourtab ul li a {
-    color:#000;
-    display:block;
-    width:94px;
-    float:left;
-    text-align:center;
-    background-color:#A4A4A4;
-    text-shadow:1px 1px 1px #fff;
-    height:20px;
-    padding:5px 0px 0px 0px;
-    margin-right:4px;
-    vertical-align: middle;
-    border-top-left-radius:7px;
-    border-top-right-radius:7px;
-    -moz-border-radius-topleft:7px;
-    -moz-border-radius-topright:7px;
-    -khtml-border-radius-topleft:7px;
-    -khtml-border-radius-topright:7px;
-    -webkit-border-top-left-radius:7px;
-    -webkit-border-top-right-radius:7px;
-    border-right: 2px solid #adadad;
-    }
-    #fourtab ul li a.tabactive{
-    color:#FFFFCC;
-    background-color:#888888;
-    text-shadow:2px 2px 2px #000;
-    }
-    #fourtab ul li a:hover{
-    color:#000;
-    background-color:#A4A4A4;
-    text-shadow:1px 1px 1px #fff;
-    }
+/*=== TABCONTENT ===*/
+#bottomfeature {clear:both; width:420px; padding-top:5px; margin-bottom:10px; border:1px solid #C0C0C0;}
+#autoselecttab {clear:both; width:400px; height:25px; padding:0 0 0 10px; border-bottom:1px solid #C0C0C0;}
+#fourtab {position:relative; height:25px; font-size:12px; font-weight:normal; background:transparent; font-family:Arial,Helvitica,sans-serif;}
+#fourtab ul {margin:0; padding:0; list-style-type:none; width:auto;}
+#fourtab ul li {display:block; float:left; margin:0;}
+#fourtab ul li a {color:#000; display:block; width:94px; float:left; text-align:center; background-color:#A4A4A4; text-shadow:1px 1px 1px #fff;
+    height:20px; padding:5px 0px 0px 0px; margin-right:4px; vertical-align:middle; border-top-left-radius:7px; border-top-right-radius:7px;
+    -moz-border-radius-topleft:7px; -moz-border-radius-topright:7px; -khtml-border-radius-topleft:7px; -khtml-border-radius-topright:7px;
+    -webkit-border-top-left-radius:7px; -webkit-border-top-right-radius:7px; border-right:2px solid #adadad;}
+#fourtab ul li a.tabactive {color:#FFFFCC; background-color:#888888; text-shadow:2px 2px 2px #000;}
+#fourtab ul li a:hover {color:#000; background-color:#A4A4A4; text-shadow:1px 1px 1px #fff;}
     
-    /*--- Content Tabcontents ---*/
-    #tabcontent1, #tabcontent2, #tabcontent3, #tabcontent4 {
-    background:url("");
-    width:auto;
-    height:245px;
-    margin:0;
-    padding:0 0 0 5px;
-    font-size:10px;
-    letter-spacing:0px;
-    overflow: auto;
-    }
-    .tabcontent h2 {
-    margin:13px 0px 2px 0px;
-    padding:0px;
-    font-family: Arial,Helvitica,sans-serif;
-    font-size:12px;
-    letter-spacing:0px;
-    font-weight:bold;
-    color:#045EC4;
-    text-align:left;
-    text-shadow:2px 2px 2px #adadad;
-    }
+/*--- Konten Tabcontent ---*/
+#tabcontent1, #tabcontent2, #tabcontent3, #tabcontent4 {background:url(""); width:auto; height:245px; margin:0; padding:0 0 0 5px;
+    font-size:10px; letter-spacing:0px; overflow:auto;}
+.tabcontent h2 {margin:13px 0px 2px 0px; padding:0px; font-family:Arial,Helvitica,sans-serif; font-size:12px; font-weight:bold;
+    letter-spacing:0px; color:#045EC4; text-align:left; text-shadow:2px 2px 2px #adadad;}
 
-/*=== TabView Menu ===*/
-div.TabView div.Tabs {
-    padding-top:0px;
-    height:24px;
-    overflow:hidden;
-    }
+/*=== TABVIEW ===*/
+div.TabView div.Tabs {padding-top:0px; height:24px; overflow:hidden;}
+div.TabView div.Tabs a {float:left; display:block; width:92px; text-align:center; height:24px; padding-top:4px; margin-right:4px; vertical-align:middle;
+    border-bottom-width:0; font-family:Arial,Helvitica,sans-serif; font-size:12px; letter-spacing:0px; background-color:#A4A4A4; color:#000;
+    text-shadow:1px 1px 1px #fff; border-top-left-radius:7px; border-top-right-radius:7px; -moz-border-radius-topleft:7px; -moz-border-radius-topright:7px;
+    -o-border-radius-topleft:7px; -o-border-radius-topright:7px; -webkit-border-top-left-radius:7px; -webkit-border-top-right-radius:7px; border-right:2px solid #adadad;}
+div.TabView div.Tabs a.active {background-color:#888888; color:#FFFFCC; font-weight:normal; text-shadow:2px 2px 2px #000;}
+div.TabView div.Tabs a:hover {background-color:#A4A4A4; color:#000; font-weight:bold; text-shadow:1px 1px 1px #fff;}
     
-    /*--- Menu Utama ---*/
-    div.TabView div.Tabs a {
-    float:left;
-    display:block;
-    width:92px;  
-    text-align:center;
-    height:24px; 
-    padding-top:4px;
-    margin-right:4px;
-    vertical-align:middle;
-    border-bottom-width:0;
-    font-family:Arial,Helvitica,sans-serif;
-    font-size:12px; 
-    letter-spacing:0px;
-    background-color:#A4A4A4; 
-    color:#000;
-    text-shadow:1px 1px 1px #fff;
-    border-top-left-radius:7px;
-    border-top-right-radius:7px;
-    -moz-border-radius-topleft:7px;
-    -moz-border-radius-topright:7px;
-    -o-border-radius-topleft:7px;
-    -o-border-radius-topright:7px;
-    -webkit-border-top-left-radius:7px;
-    -webkit-border-top-right-radius:7px;
-    border-right: 2px solid #adadad;
-    }
-    div.TabView div.Tabs a.Active {
-    background-color:#888888;
-    color:#FFFFCC;
-    font-weight:normal;
-    text-shadow:2px 2px 2px #000;
-    }
-    div.TabView div.Tabs a:hover {
-    background-color:#A4A4A4;
-    color:#000;
-    font-weight:bold;
-    text-shadow:1px 1px 1px #fff;
-    }
-    
-    /*--- Kotak Utama ---*/
-    div.TabView div.Pages {
-    clear:both;
-    border:1px solid #CCC;
-    overflow:hidden;
-    background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4NxIKeXy7MUqVJx65iUhr_eSKDksYk2gA876YCRz0NypgCRkSTOlFI1MvHTbC9eLoPg56w9qbtNLSG8ycCRmVlFahiwlMt7MfJDlTZbQJuCr2rsslttmdXAU9ci3SmtmwqO0aXnY_8RIA3q2yQt8Hrc910thSlnOiqbGQB0FyvUtRH3YtXzRg72UHFLHF/s1600/bgtabview.gif); /* bgtabview.gif */
-    }
-    div.TabView div.Pages div.Page {
-    height:100%;
-    padding:0px;
-    overflow:hidden;
-    }
-    div.TabView div.Pages div.Page div.Pad {
-    padding:3px 5px;
-    font-size:12px; 
-    }
+/*--- Konten Tabview---*/
+div.TabView div.Pages {background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4NxIKeXy7MUqVJx65iUhr_eSKDksYk2gA876YCRz0NypgCRkSTOlFI1MvHTbC9eLoPg56w9qbtNLSG8ycCRmVlFahiwlMt7MfJDlTZbQJuCr2rsslttmdXAU9ci3SmtmwqO0aXnY_8RIA3q2yQt8Hrc910thSlnOiqbGQB0FyvUtRH3YtXzRg72UHFLHF/s1600/bgtabview.gif);
+    clear:both; border:1px solid #CCC; overflow:hidden;}
+div.TabView div.Pages div.Page {height:100%; padding:0px; overflow:hidden;}
+div.TabView div.Pages div.Page div.Pad {padding:3px 5px; font-size:12px;}
 
-/*=== Rolling Widget Buku Tamu ===*/
-#gb{
-    position:fixed;
-    top:0px;
-    right:0px;
-    z-index:+1000;
-    }
-    * html #gb{position:relative;
-    }
-    .gbtab{
-    height:100px; 
-    width:30px; 
-    float:left;
-    cursor:pointer;
-    background:none;
-    }
-    .gbcontent{
-    float:left;
-    border:2px solid #888888; /*warna bingkai*/
-    background:#F0F0F0; /*warna latar*/
-    padding:5px 10px 0px 10px;
-    }
+/*=== ROLLING WIDEGT BUKU TAMU ===*/
+#gb{position:fixed; top:0px; right:0px; z-index:+1000;}
+* html #gb{position:relative;}
+.gbtab{height:100px; width:30px; float:left; cursor:pointer; background:none;}
+.gbcontent{float:left; border:2px solid #888888; /*bingkai*/ background:#F0F0F0; /*latar*/ padding:5px 10px 0px 10px;}
     
+/*NAVBAR MENU ANIMASI*/
+/* ================================================================
+This copyright notice must be untouched at all times.
+The original version of this stylesheet and the associated (x)html
+is available at https://www.cssplay.co.uk/menus/shutter.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any
+way to fit your requirements.
+=================================================================== */
+#nav {background:url('')  repeat-x top center; width:875px; height:36px;border-top:10px solid #888; margin-top:0px;clear:both; border-bottom:none;padding-bottom:10px;}
+.pad1 {width:106px; height:26px; float:left; background:#aaa; margin:30px 1px 0 0;}
+.pad2 {width:106px; height:26px; float:left; background:#aaa; margin:30px 0 0 1px;}
+#menu, #menu ul  {padding-top:20px; margin:0; list-style:none; float:left;}
+#menu li {float:left; margin:1px; position:relative; display:inline; font-size:11px;}
+#menu li a {display:block; width:130px; height:36px; float:left; text-decoration:none; cursor:pointer;}
+#menu li a b {display:block; position:relative; font-weight:normal; font-family:arial, sans-serif;}
+#menu li a b.p1 {display:block; overflow:hidden; height:9px; width:0; border-top:8px dashed transparent; border-right:17px solid #bbb; position:absolute; top:0; left:0; }
+#menu li a b.p2 {display:block; overflow:hidden; height:9px; width:0; border-bottom:8px dashed transparent; border-left:17px solid #bbb; position:absolute; top:17px; left:0;}
+#menu li a b.p3 {display:block; overflow:hidden; height:9px; width:0; border-top:8px dashed transparent; border-left:17px solid #888; position:absolute; right:0; top:0;}
+#menu li a b.p4 {display:block; overflow:hidden; height:9px; width:0; border-bottom:8px dashed transparent; border-right:17px solid #888; position:absolute; right:0; top:17px;}
+#menu li a div {display:block; float:left; width:96px; height:26px; background:#aaa; text-align:center; color:#000; position:absolute; left:17px; top:0; line-height:25px; text-shadow:1px 1px 1px #fff;}
+#menu ul {position:absolute; left:-9999px;}
+#menu li:hover {padding-top:17px;}
+* html #menu li a:hover {white-space:normal; padding-top:17px;}
+#menu li:hover > a div {color:#000;}
+#menu li a:hover div {color:#000; font-weight:bold; text-shadow:1px 1px 1px #fff;}
+#menu li:hover a b.p1,
+#menu li a:hover b.p1 {border:0; border-top:8px dashed transparent; border-left:17px solid #888; top:-8px;}
+#menu li:hover a b.p2,
+#menu li a:hover b.p2 {border:0; border-bottom:8px dashed transparent; border-right:17px solid #888; top:9px;}
+#menu li:hover a b.p3,
+#menu li a:hover b.p3 {border:0; border-top:8px dashed transparent; border-right:17px solid #bbb; top:-8px;}
+#menu li:hover a b.p4,
+#menu li a:hover b.p4 {border:0; border-bottom:8px dashed transparent; border-left:17px solid #bbb; top:9px;}
+#menu li:hover ul, 
+#menu li a:hover ul {left:-1px; top:34px; width:184px; background:url(no.gif);}
+#menu li:hover ul li,
+#menu li a:hover ul li {margin-top:-10px;}
+#menu li a:hover ul li a span {color:#fff;}
+#menu li a:hover ul li a:hover {padding-top:17px;}
+#menu li a:hover ul li a:hover span {color:#000;}
+td.mbl_fo_hidden{display:none;}td.mbl_join_img{}td.mbl_join{}tr#tr0{display:none}th.mbl_h{display:none;}
+
+
+/*DROPDOWN MENU*/
+/* ================================================================
+This copyright notice must be untouched at all times.
+The original version of this stylesheet and the associated (x)html
+is available at https://www.cssplay.co.uk/menus/drop_definition2.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any way
+to fit your requirements.
+=================================================================== */
+/*LEFT*/
+#menu_left {list-style-type:none; margin-left:0px; padding:0; float:left;}
+#menu_left li {float:left; padding:0; margin:-0.3em 1px 0.4em 0; position:relative; width:140px;z-index:100;}
+#menu_left li dl {position:absolute; top:0; left:0;padding-bottom:0px;}
+#menu_left li a, #menu_left li a:visited {text-decoration:none; transition:1.25s; -ms-transition:1.25s; -o-transition:1.25s; -moz-transition:1.25s; -webkit-transition:1.25s;}
+#menu_left li dd {display:none;}
+#menu_left li a:hover {border:0; font-weight:bold;}
+#menu_left li:hover dd, #menu_left li a:hover dd {display:block;}
+#menu_left li:hover dl, #menu_left li a:hover dl {padding-bottom:5px;}
+#menu_left table {border-collapse:collapse; padding:0; margin:0px; font-size:1em;}
+#menu_left dl {width:140px; margin:0; padding:0; background:#c9ba65;}
+#menu_left dt a{margin:0; padding:11px 5px 5px 23px; font-size:10px; color:#fff; text-align:left; height:1.7em; text-transform:uppercase;}
+#menu_left dt a:hover{margin:0; padding:11px 5px 5px 23px; font-size:10px; color:#fff; text-align:left; height:1.7em;}
+#menu_left .two {background:#272828; border-top:0px solid #bb9;}
+#menu_left .two dt a{background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjmPIEkNN_YVlrisSPVhWfr_td5Zy3VXAfCAGqQPZObWCAUJqB7AW1XodB2a1wapOUIBeth2Igx1L6Y17WUAlrNktQVCDazwHU5tspInWMRmOkFHRB92c_bYt6yVgSDmfS_lQDTgK9pq3nFTaSmDMzCnpF9DA0DrDFAALf6dDrsjLpJdIDcwmshYxha-5_/s1600/sprite-sc.png); background-position:0 -227px;} /*buttonA*/
+#menu_left dd {margin:0; padding:0; color:#fff; font-size:10px; text-align:left;}
+#menu_left .two dd {border-bottom:1px solid #e8e8e8;}
+#menu_left dd.last {border-bottom:1px solid #fff;}
+#menu_left dt a, #menu_left dt a:visited {display:block; color:#fff;}
+#menu_left dd a, #menu_left dd a:visited {color:#fff; text-decoration:none; display:block; padding:4px 5px 4px 20px; width:115px;}
+#menu_left .two dd a {background:#d4d8bd; color:#346; text-shadow:1px 1px 1px #fff;}
+#menu_left .two dd a:hover {background:#949e7c; color:#543; text-shadow:1px 1px 1px #fff;}
+
+/*RIGHT*/
+#menu_right {list-style-type:none; margin-right:0px; padding:0; float:right;}
+#menu_right li {float:right; padding:0; margin:-0.3em 0px 0.4em 1px; position:relative; width:140px;z-index:100;}
+#menu_right li dl {position:absolute; top:0; right:0;padding-bottom:0px;}
+#menu_right li a, #menu_right li a:visited {text-decoration:none; transition:1.25s; -ms-transition:1.25s; -o-transition:1.25s; -moz-transition:1.25s; -webkit-transition:1.25s;}
+#menu_right li dd {display:none;}
+#menu_right li a:hover {border:0; font-weight:bold;}
+#menu_right li:hover dd, #menu_right li a:hover dd {display:block;}
+#menu_right li:hover dl, #menu_right li a:hover dl {padding-bottom:5px;}
+#menu_right table {border-collapse:collapse; padding:0; margin:0px; font-size:1em;}
+#menu_right dl {width:140px; margin:0; padding:0; background:#c9ba65;}
+#menu_right dt a{margin:0; padding:11px 23px 5px 5px; font-size:10px; color:#fff; text-align:right; height:1.7em; text-transform:uppercase;}
+#menu_right dt a:hover{margin:0; padding:11px 23px 5px 5px; font-size:10px; color:#fff; text-align:right; height:1.7em;}
+#menu_right .two {background:#272828; border-top:0px solid #bb9;}
+#menu_right .two dt a{background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjmPIEkNN_YVlrisSPVhWfr_td5Zy3VXAfCAGqQPZObWCAUJqB7AW1XodB2a1wapOUIBeth2Igx1L6Y17WUAlrNktQVCDazwHU5tspInWMRmOkFHRB92c_bYt6yVgSDmfS_lQDTgK9pq3nFTaSmDMzCnpF9DA0DrDFAALf6dDrsjLpJdIDcwmshYxha-5_/s1600/sprite-sc.png); background-position:-140px -227px;} /*buttonB*/
+#menu_right dd {margin:0; padding:0; color:#fff; font-size:10px; text-align:right;}
+#menu_right .two dd {border-bottom:1px solid #e8e8e8;}
+#menu_right dd.last {border-bottom:1px solid #fff;}
+#menu_right dt a, #menu_right dt a:visited {display:block; color:#fff;}
+#menu_right dd a, #menu_right dd a:visited {color:#fff; text-decoration:none; display:block; padding:4px 20px 4px 5px; width:115px;}
+#menu_right .two dd a {background:#d4d8bd; color:#346; text-shadow:1px 1px 1px #fff;}
+#menu_right .two dd a:hover {background:#949e7c; color:#543; text-shadow:1px 1px 1px #fff;}
